@@ -15,16 +15,16 @@ for (let i = 0; i < 3; i++) {
 
     switch (i) {
 
-        case (i):
+        case (0):
             {
-                if (pass != "YES" || pass != "NO" || pass != "Y" || pass != "N" || pass == "YES OR NO") {
+                if (pass !== "YES" || pass !== "NO" || pass != "Y" || pass !== "N" || pass !== "YES OR NO") {
                     pass = "invalid";
                 }
-                if (news != "YES" || news != "NO" || news != "Y" || news != "N" || news == "YES OR NO") {
+                if (news !== "YES" || news !== "NO" || news != "Y" || news !== "N" || news !== "YES OR NO") {
                     news = "invalid";
                 }
 
-                if (color != "YES" || color != "NO" || color != "Y" || color != "N" || color == "YES OR NO") {
+                if (color !== "YES" || color !== "NO" || color != "Y" || color !== "N" || color !== "YES OR NO") {
                     color = "invalid";
                 }
 

@@ -20,13 +20,18 @@ for (let i = 0; i < 3; i++) {
                 if (pass !== "YES" || pass !== "NO" || pass != "Y" || pass !== "N" || pass !== "YES OR NO") {
                     pass = "invalid";
                 }
+               else{news=news;}
+                
                 if (news !== "YES" || news !== "NO" || news != "Y" || news !== "N" || news !== "YES OR NO") {
                     news = "invalid";
                 }
+               else{pass=pass;}
 
                 if (color !== "YES" || color !== "NO" || color != "Y" || color !== "N" || color !== "YES OR NO") {
                     color = "invalid";
                 }
+                 else{color=color ;}
+
                 
                 
                 

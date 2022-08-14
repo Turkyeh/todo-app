@@ -27,6 +27,11 @@ for (let i = 0; i < 3; i++) {
                 if (color !== "YES" || color !== "NO" || color != "Y" || color !== "N" || color !== "YES OR NO") {
                     color = "invalid";
                 }
+                
+                
+                
+                //function acses(pass,new,color){
+            
 
             }
         

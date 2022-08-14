@@ -15,7 +15,7 @@ for (let i = 0; i < 3; i++) {
 
     switch (i) {
 
-        case (0):
+        case (i):
             {
                 if (pass != "YES" || pass != "NO" || pass != "Y" || pass != "N" || pass == "YES OR NO") {
                     pass = "invalid";
